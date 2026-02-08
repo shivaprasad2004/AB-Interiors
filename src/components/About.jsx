@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { PenTool, Layout, Home } from 'lucide-react';
 
 const About = () => {
-  // Using another uploaded WhatsApp image for context
-  const aboutImage = "/images/WhatsApp Image 2026-02-04 at 12.49.54 PM.jpeg";
+  // Founder's profile image
+  const aboutImage = "/images/abhilash.jpg";
 
   return (
     <section id="about" className="py-20 bg-brand-gray text-white">
@@ -21,19 +21,25 @@ const About = () => {
                <div className="aspect-[3/4] bg-neutral-800 rounded-lg overflow-hidden flex items-center justify-center border border-neutral-700 relative group">
                  <img 
                    src={aboutImage}
-                   alt="AB Interiors Design"
+                   alt="Abhilash Neela - Founder"
                    className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-500 scale-105 group-hover:scale-100 transition-transform"
                    onError={(e) => {
-                     e.target.parentElement.style.backgroundColor = '#333';
-                     e.target.style.display = 'none';
+                     e.target.parentElement.style.backgroundColor = '#2a2a2a';
+                     // Keep display block but maybe show a placeholder icon or text if image missing
                    }}
                  />
-                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                  
+                 {/* Name Overlay */}
+                 <div className="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black to-transparent">
+                    <h3 className="text-2xl font-serif font-bold text-white mb-1">Abhilash Neela</h3>
+                    <p className="text-brand-orange font-medium">Founder & Principal Designer</p>
+                 </div>
+
                  {/* Floating Badge */}
-                 <div className="absolute bottom-6 left-6 bg-brand-orange/90 backdrop-blur-md p-4 rounded-lg shadow-xl">
-                    <p className="text-white font-bold text-lg">Expert Design</p>
-                    <p className="text-white/80 text-sm">Since 2020</p>
+                 <div className="absolute top-6 right-6 bg-brand-orange/90 backdrop-blur-md p-4 rounded-lg shadow-xl">
+                    <p className="text-white font-bold text-lg text-center">5+</p>
+                    <p className="text-white/90 text-xs uppercase tracking-wider">Years Exp.</p>
                  </div>
                </div>
                
