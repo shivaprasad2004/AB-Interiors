@@ -14,7 +14,7 @@ const Inspiration = () => {
       id: 2,
       title: "Biophilic Bedroom Oasis",
       category: "Bedroom",
-      image: "https://images.unsplash.com/photo-1616594039964-40832ee422d9?auto=format&fit=crop&q=80&w=1000",
+      image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&q=80&w=1000",
       description: "Bringing the outdoors in with natural textures and calming greens."
     },
     {
@@ -42,7 +42,7 @@ const Inspiration = () => {
       id: 6,
       title: "Home Office Sanctuaries",
       category: "Office",
-      image: "https://images.unsplash.com/photo-1593642632823-8f78536788c6?auto=format&fit=crop&q=80&w=1000",
+      image: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&q=80&w=1000",
       description: "Productivity meets style in these curated workspaces."
     }
   ];

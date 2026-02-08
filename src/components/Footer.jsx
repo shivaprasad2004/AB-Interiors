@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Instagram, Mail, Phone, MapPin, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -40,6 +40,9 @@ const Footer = () => {
               </a>
               <a href="https://instagram.com/abinteriors9" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
                 <Instagram size={16} /> @abinteriors9
+              </a>
+              <a href="https://www.linkedin.com/in/abhilash-neela-77489516a/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Linkedin size={16} /> LinkedIn
               </a>
             </div>
           </div>
