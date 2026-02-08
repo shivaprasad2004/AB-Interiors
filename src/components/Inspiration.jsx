@@ -22,8 +22,8 @@ const Inspiration = () => {
       id: 3,
       title: "Contemporary Kitchens",
       category: "Kitchen",
-      // Updated with a new sleek, modern luxury kitchen image
-      image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1000",
+      // Updated with a warm, inviting modern kitchen image
+      image: "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&q=80&w=1000",
       description: "Sleek cabinetry meets functional design for the heart of the home."
     },
     {
