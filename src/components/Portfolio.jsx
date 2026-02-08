@@ -138,25 +138,23 @@ const Portfolio = () => {
   ];
 
   return (
-    <section id="portfolio" className="py-20 bg-brand-black min-h-screen">
+    <section id="portfolio" className="py-20 bg-brand-black">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-          >
-            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-4 text-brand-white">
-              Selected <span className="text-brand-orange">Works</span>
-            </h2>
-            <p className="text-gray-400 max-w-2xl mx-auto text-lg font-light tracking-wide">
-              Excellence in every detail. Explore our curated collection of bespoke interior transformations.
-            </p>
-          </motion.div>
-        </div>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <span className="text-brand-orange font-bold tracking-wider uppercase text-sm">Selected Works</span>
+          <h2 className="text-3xl md:text-5xl font-serif font-bold mt-2 text-white">Our Projects</h2>
+          <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+            A showcase of our finest interior design projects, tailored to perfection.
+          </p>
+        </motion.div>
 
-        {/* Uniform Grid for Smaller Image Appearance */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
           {projects.map((project, index) => (
             <motion.div 
               key={project.id}

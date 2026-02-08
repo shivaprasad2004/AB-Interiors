@@ -30,14 +30,14 @@ const Hero = () => {
           <div className="mb-6 inline-block border-2 border-brand-white p-4 rounded-full backdrop-blur-sm bg-white/5">
             <span className="text-4xl md:text-6xl font-serif font-bold text-white">AB</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-serif font-bold mb-4 tracking-tight text-white drop-shadow-2xl">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold mb-4 tracking-tight text-white drop-shadow-2xl">
             AB <span className="text-brand-orange">Interiors</span>
           </h1>
           <motion.p 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="text-xl md:text-3xl text-gray-200 font-light tracking-[0.2em] uppercase mb-12 drop-shadow-lg"
+            className="text-lg md:text-2xl lg:text-3xl text-gray-200 font-light tracking-[0.2em] uppercase mb-12 drop-shadow-lg"
           >
             Dream. Create. Live
           </motion.p>
