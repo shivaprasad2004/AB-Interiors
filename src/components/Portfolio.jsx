@@ -71,69 +71,6 @@ const Portfolio = () => {
       title: "Interior Design",
       category: "Residential",
       description: "Bespoke interior design tailored to client requirements."
-    },
-    {
-      id: 10,
-      image: "/images/WhatsApp Image 2026-02-04 at 12.49.57 PM.jpeg",
-      title: "Interior Design",
-      category: "Residential",
-      description: "Bespoke interior design tailored to client requirements."
-    },
-    {
-      id: 11,
-      image: "/images/WhatsApp Image 2026-02-04 at 12.49.58 PM (1).jpeg",
-      title: "Interior Design",
-      category: "Residential",
-      description: "Bespoke interior design tailored to client requirements."
-    },
-    {
-      id: 12,
-      image: "/images/WhatsApp Image 2026-02-04 at 12.49.58 PM.jpeg",
-      title: "Interior Design",
-      category: "Residential",
-      description: "Bespoke interior design tailored to client requirements."
-    },
-    {
-      id: 13,
-      image: "/images/WhatsApp Image 2026-02-04 at 12.49.59 PM (1).jpeg",
-      title: "Interior Design",
-      category: "Residential",
-      description: "Bespoke interior design tailored to client requirements."
-    },
-    {
-      id: 14,
-      image: "/images/WhatsApp Image 2026-02-04 at 12.49.59 PM.jpeg",
-      title: "Interior Design",
-      category: "Residential",
-      description: "Bespoke interior design tailored to client requirements."
-    },
-    {
-      id: 15,
-      image: "/images/WhatsApp Image 2026-02-04 at 12.50.00 PM (1).jpeg",
-      title: "Interior Design",
-      category: "Residential",
-      description: "Bespoke interior design tailored to client requirements."
-    },
-    {
-      id: 16,
-      image: "/images/WhatsApp Image 2026-02-04 at 12.50.00 PM (2).jpeg",
-      title: "Interior Design",
-      category: "Residential",
-      description: "Bespoke interior design tailored to client requirements."
-    },
-    {
-      id: 17,
-      image: "/images/WhatsApp Image 2026-02-04 at 12.50.00 PM.jpeg",
-      title: "Interior Design",
-      category: "Residential",
-      description: "Bespoke interior design tailored to client requirements."
-    },
-    {
-      id: 18,
-      image: "/images/WhatsApp Image 2026-02-04 at 12.50.01 PM.jpeg",
-      title: "Interior Design",
-      category: "Residential",
-      description: "Bespoke interior design tailored to client requirements."
     }
   ];
 
