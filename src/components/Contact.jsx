@@ -32,6 +32,12 @@ const Contact = () => {
             href="https://instagram.com/abinteriors9"
           />
           <ContactCard 
+            icon={<Linkedin size={28} />}
+            title="LinkedIn"
+            value="Abhilash Neela"
+            href="https://www.linkedin.com/in/abhilash-neela-77489516a/"
+          />
+          <ContactCard 
             icon={<MapPin size={28} />}
             title="Location"
             value="Hyderabad"
