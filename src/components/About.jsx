@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { PenTool, Layout, Home } from 'lucide-react';
 
 const About = () => {
-  // Founder's profile image - using one of the uploaded WhatsApp images
-  const aboutImage = "/images/WhatsApp Image 2026-02-04 at 12.49.53 PM.jpeg";
+  // Founder's profile image
+  const aboutImage = "/images/abhilash.jpg";
 
   return (
     <section id="about" className="py-20 bg-brand-gray text-white">

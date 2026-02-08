@@ -14,7 +14,8 @@ const Inspiration = () => {
       id: 2,
       title: "Biophilic Bedroom Oasis",
       category: "Bedroom",
-      image: "https://images.unsplash.com/photo-1616594039964-40832ee422d9?auto=format&fit=crop&q=80&w=1000",
+      // Updated with a reliable high-quality image of a bedroom with plants
+      image: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&q=80&w=1000",
       description: "Bringing the outdoors in with natural textures and calming greens."
     },
     {
@@ -28,7 +29,8 @@ const Inspiration = () => {
       id: 4,
       title: "Luxury Spa Bathrooms",
       category: "Bathroom",
-      image: "https://images.unsplash.com/photo-1620626012053-93f566c36f75?auto=format&fit=crop&q=80&w=1000",
+      // Updated with a reliable high-quality image of a spa-like bathroom
+      image: "https://images.unsplash.com/photo-1584622050111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000",
       description: "Transforming daily routines into spa-like experiences."
     },
     {
