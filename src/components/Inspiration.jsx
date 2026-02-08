@@ -22,22 +22,24 @@ const Inspiration = () => {
       id: 3,
       title: "Contemporary Kitchens",
       category: "Kitchen",
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1000",
+      // Updated with a new sleek, modern luxury kitchen image
+      image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1000",
       description: "Sleek cabinetry meets functional design for the heart of the home."
     },
     {
       id: 4,
       title: "Luxury Spa Bathrooms",
       category: "Bathroom",
-      // Updated with a reliable high-quality image of a spa-like bathroom
-      image: "https://images.unsplash.com/photo-1584622050111-993a426fbf0a?auto=format&fit=crop&q=80&w=1000",
+      // Updated with a new spa-like bathroom image with a bathtub and view
+      image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&q=80&w=1000",
       description: "Transforming daily routines into spa-like experiences."
     },
     {
       id: 5,
       title: "Open Concept Dining",
       category: "Dining",
-      image: "https://images.unsplash.com/photo-1617103996702-96ff29b1c467?auto=format&fit=crop&q=80&w=1000",
+      // Updated with a more elegant, high-end dining room image
+      image: "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&q=80&w=1000",
       description: "Spacious layouts perfect for entertaining and family gatherings."
     },
     {
