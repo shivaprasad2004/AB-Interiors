@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-brand-black text-brand-white;
+}
+
+@theme {
+  --color-brand-orange: #FF5722;
+  --color-brand-black: #000000;
+  --color-brand-white: #FFFFFF;
+  --color-brand-gray: #1F1F1F;
+  --font-serif: Merriweather, serif;
+  --font-sans: Inter, sans-serif;
+}
